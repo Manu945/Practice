@@ -3,13 +3,18 @@ package fr.manu.practice.gestion.ranks;
 import java.util.Arrays;
 
 public enum RankUnit {
-    STAFF("§a§lSTAFF","Staff", 10, "§a§lSTAFF§a "),
-    FAMOUS("§b§lFAMOUS","Famous", 11, "§b§l️FAMOUS§d "),
-    FRIEND("§d§l❤️FRIEND","Friend", 12, "§d§l❤️️§d "),
-    YONKO("§c§lYonko","Yonko", 13, "§c§lYonko§e "),
-    HOLLOW("§5§lHollow","Hollow", 14, "§5§lHollow§e "),
-    SAIYAN("§6§lSaiyan","Saiyan", 15, "§6§lSaiyan§e "),
-    JOUEUR("§7JOUEUR","Joueur", 16, "§7");
+  ADMINISTRATEUR("§c§lADMIN", "Administrateur", 10, "§c§lADMINISTRATEUR§c"),
+  RESPONSABLE("§6§lRESP", "Responsable", 11, "§6§lRESPONSABLE§6"),
+  MODERATEUR("§9§lMOD", "Mod", 12, "§9§lMODERATEUR§9"),
+  DEVELOPPEUR("§2§lDEV", "Dev", 13, "§2§lDEVELOPPEUR§2"),
+  ANIMATEUR("§5§lANIM", "Animateur", 14, "§5§lANIMIMATEUR§5"),
+  STAFF("§a§lSTAFF", "Staff", 15, "§a§lSTAFF§a"),
+  FAMOUS("§d§lFAMOUS", "Famous", 16, "§d§lFAMOUS§d"),
+  FRIEND("§d§l❤FRIEND", "Friend", 17, "§d§l❤§d"),
+  YONKO("§5§lYONKO", "Yonko", 18, "§5§lYONKO§5"),
+  HOLLOW("§c§lHOLLOW", "Hollow", 19, "§c§lHOLLOW§c"),
+  SAIYAN("§6§lSAIYAN", "Saiyan", 20, "§6§lSAIYAN§6"),
+  JOUEUR("§7JOUEUR", "Joueur", 21, "§7");
 
 
     private String shortName;
